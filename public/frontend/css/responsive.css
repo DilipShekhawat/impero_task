@@ -1,0 +1,402 @@
+/*Font Family*/
+/*Font Size*/
+/*color*/
+/*Radius*/
+/*Padding*/
+/*Margin*/
+/*Cozy::-->Responsive-css */
+
+@media (max-width: 1366px) {
+    .filter-option {
+    padding: 10px;}
+    .prop-name {font-size: 16px;}
+    .prop-pricing {font-size: 22px;}
+    .prop-pricing span {font-size: 15px;}
+    .prop-listing-spacing {
+    margin-left: 50px;}
+    .prop-inner-descp-box{width: 100%;}
+    .checkbox::after {width: 28px;height: 28px;}
+    .checkbox::before {left: 6px;top: 9px;width: 16px;height: 8px;}
+    .property-selection {left: -45px;}
+    .prop-listing-spacing {flex-wrap: wrap;}
+    .filter-option {flex: 33.33%;max-width: 33.33%;}
+    .prop-listing-spacing .filter-option:first-child{flex: 33.33%;max-width: 33.33%;}
+    .filter-option.half-flex {flex: 33.33%;max-width: 33.33%;}
+    .filter-option.half-more-flex {flex: 33.33%;max-width: 33.33%;}
+    .user-profile-menu .dropdown-item.active, .dropdown-item:active {
+    color: #858484;
+    text-decoration: none;
+    background-color: transparent;}
+}
+
+@media (max-width: 1280px) {
+    .dashboard-content {
+        margin-left: var(--sidebar-lg);
+        padding: 20px;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-top: calc(var(--topbar-height) + 20px);
+        padding-left: 30px;
+    }
+    .navbar-expand-lg .navbar-nav .dropdown-menu-right {
+    right: 5px;}
+    .property-list-shell {z-index: 0;position: relative;}
+    .flex-filter-300 .btn-blue{margin-top: 10px;}
+    .head-booking th {white-space: nowrap;}
+    .file-upload-form {height: 200px;}
+}
+
+@media (max-width: 1200px) {
+    .container {max-width: 100%;}
+    /* ----side menu--- */
+    .sidebar-shell {left: -205px;width: 205px;height: 100vh;transition: all 300ms ease;-o-transition: all 300ms ease;-ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;z-index: 2;}
+    .sidebar-shell.active {left: 0;transition: all 300ms ease;-o-transition: all 300ms ease;-ms-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .sidebar-shell ul {display: block;margin: 0;padding: 0;}
+    .sidebar-shell ul li {display: block;}
+    .sidebar-shell ul li:first-child {border: 0;}
+    .sidebar-shell ul li a {display: block;padding: 20px 20px;text-decoration: none;color: #000;cursor: pointer;}
+    .menuIcon {display: inline-block;background: #353164;padding: 18px 19px;cursor: pointer;position: absolute;right: -64px;top: -71px;}
+    .menuIcon span {display: block;width: 25px;height: 4px;margin: 15px 0;background: #fff;position: relative;
+    transition: all 300ms ease;-o-transition: all 300ms ease;-ms-transition: all 300ms ease;-moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .menuIcon span:before {position: absolute;content: "";left: 0;top: -10px;width: 25px;height: 4px;background: #fff;
+    transition: all 300ms ease;-o-transition: all 300ms ease;-ms-transition: all 300ms ease;-moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .menuIcon span:after {position: absolute;content: "";left: 0;bottom: -10px;width: 25px;height: 4px;background: #fff;transition: all 300ms ease;
+    -o-transition: all 300ms ease;-ms-transition: all 300ms ease;-moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .menuIcon.active span {background: #353164;transition: all 300ms ease;
+    -o-transition: all 300ms ease;-ms-transition: all 300ms ease;-moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .menuIcon.active span:before {transform: rotate(45deg);top: 0px;transition: all 300ms ease;-o-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;-moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .menuIcon.active span:after {transform: rotate(-45deg);bottom: 0px;transition: all 300ms ease;
+    -o-transition: all 300ms ease;-ms-transition: all 300ms ease;-moz-transition: all 300ms ease;-webkit-transition: all 300ms ease;}
+    .sidebar-shell {padding-top: 0px;}
+    /* ----side menu--- */
+    .dashboard-content {margin-left: 0px;padding-left: 20px;}
+    .prop-listing-spacing {flex-wrap: wrap;}
+    .filter-option {flex: 33.33%;max-width: 33.33%;padding: 10px;}
+    .filter-option.half-flex {flex: 0 0 33.33%;max-width: 33.33%;}
+    .filter-option.half-more-flex {flex: 0 0 33.33%;max-width: 33.33%;}
+    .prop-name {font-size: 16px;}
+    .prop-amenities span {font-size: 14px;}
+    .prop-amenities-box .prop-sm-icon {height: 18px;width: 18px;}
+    .prop-sm-icon {top: 0px;}
+    .prop-pricing {font-size: 22px;text-align: right;}
+    .prop-pricing span {font-size: 14px;text-align: right;}
+    .prop-indiv-price {font-size: 14px;text-align: right;}
+    .filter-option .form-check-label {font-size: 14px;}
+    
+}
+
+@media (max-width: 991px) {
+    .index-text h1 {font-size: 32px;}
+    .form-container h4 {font-size: 22px;}
+    .home-plans article {padding: 20px;}
+    .plan-info h2 {font-size: 24px;}
+    .plan-info .plan-value {margin: 10px 0px;}
+    .plan-info .plan-value h4 {font-size: 26px;}
+    .plan-spat {font-size: 34px;}
+    .index-text {margin-top: 30px;}
+    .plan-info h6 font {font-size: 26px;}
+    .plan-info h6 {font-size: 15px;margin-bottom: 10px;}
+    .filter-shell{flex-wrap: wrap;}
+    .property-list-shell {max-height: 600px; z-index: 0;position: relative;}
+    #searchForm .flex-box{flex-wrap: wrap;width: 100%;}
+    #searchForm .flex-box .flex-1{flex: 0 0 100%;max-width: 100%;}
+    #searchForm .flex-box .flex-filter-300{flex: 0 0 100%;max-width: 100%;margin: 0px;}
+    #searchForm .flex-box .flex-1 .prop-listing-spacing {margin-left: 0px;}
+    .textarea-box textarea {width: 100%;padding-right:0px;font-size: 14px;}
+    .dashboard-content .flex-box {flex-wrap:wrap;}
+    .dashboard-content .flex-box .flex-filter-300 {flex: 0 0 100%;max-width: 100%;margin: 0px;}
+    .inner-header .navbar{padding-right: 15px !important;}
+    .inner-header .nav-link.btn {font-size: 14px;line-height: 40px;min-width: 100%;height: 40px;margin: 0px;padding: 0px 20px;}
+    .dropdown-menu.dropdown-menu-right {position: absolute;right: 0px !important;left: auto;}
+    .navbar  button:focus {outline: none;}
+    .prop-img {flex: 0 0 110px;max-width: 110px;height: 90px;margin: 0 10px 0 0;overflow: hidden;}
+    .btn-shell h6 {font-size: 15px;}
+    .book-btn {text-align: left;padding: 15px;}
+    .flex-filter-bx {padding-top: 10px;}
+    .flex-filter-bx li {padding: 15px;border-radius: 10px;margin: 5px 3px 5px 3px;max-width: 32%;display: inline-flex;width: 100%;}
+    .notes-text {min-height: 110px;}
+    .textarea-box{width: 100%;}
+    .flex-filter-bx.textstickynote {max-height: 400px;flex-wrap: wrap;display: flex;}
+    .prop-status { min-width: 100px;padding: 5px 10px;font-size: 14px;}
+    .prop-pricing {font-size: 18px;}
+    .prop-pricing span {font-size: 12px;}
+    .head-booking th {font-size: 14px;padding: 10px 15px;white-space: nowrap;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .brand-center {position: absolute;left: 0;top: 0;margin-right: 0rem;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-item{padding-right: 10px;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler{margin-left: auto;}
+    .navbar-toggler {padding: 2px 6px;font-size: 20px;}
+    .report-bx li {padding: 15px;}
+    .report-bx li h6 {font-size: 12px;min-height: 45px;}
+    .report-bx li .prop-pricing {font-size: 16px;}
+    .report-bx li .prop-pricing span {font-size: 12px;}
+    .report-bx {border-radius: 10px;}
+    .re-box-in {border-radius: 10px;}
+    .tb-bg {border-radius: 10px 10px 0px 0px;}
+    .sub-scription-bx .home-plans article {padding: 20px;}
+    .go-to-pay-bx {border-radius: 10px;}
+    .nice-select.form-control.custom-select {height: 42px;}
+    .file-upload-form {height: 190px}
+    .form-Documents h4 {width: 140px;min-width: 140px;padding-right: 5px;font-size: 14px;margin-bottom: 15px;}
+    .form-Documents .form-box {padding: 15px;}
+    .form-Documents {flex-wrap: wrap;}
+    .form-control.tinymce-editor{height: 10em !important;}
+
+    .inner-nav-profile .navbar-toggler{display: none;}
+    .inner-nav-profile .inner-nav-bg{display: block;flex-basis: initial;}
+    .inner-nav-profile .inner-nav-bg .navbar-nav {flex-direction: inherit;display: flex;align-items: center;}
+    .inner-nav-profile .inner-nav-bg .navbar-nav .nav-item.col-m-6{padding: 0px 5px;}
+    .inner-nav-profile .inner-nav-bg .navbar-nav .nav-item{padding: 0px 5px;}
+    .inner-nav-profile {display: flex;flex-flow: row;}
+    .nav-item.ml-auto.col-m-6{padding: 0px 5px;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-toggler{display: none;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-collapse.m-auto{display: block;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav{flex-direction: row;justify-content: flex-end;}
+    /* .dash-table-cover .table-responsive {height: calc(100vh - 200px);} */
+    .property-opt .table-responsive {height:auto;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-item .nav-link{padding: 0px;}
+    .land-lord .form-group .btnselect {height: 42px; width: calc(100% - 150px) !important;}
+    .land-lord .form-group .btnselect .current{font-size: 14px;}
+    .sidebar-shell ul {padding: 10px 0px;}
+    .form-box.px-5{padding: 20px !important;}
+    .calender-sec #calendar {border-radius: 15px;padding: 5px;}
+    .btn-shell.book-btn.space-bk-btn.share-btn-bg.sharebtndiv{display: flex;align-items: center;justify-content: space-between;}
+    .btn-shell.book-btn.space-bk-btn.share-btn-bg.sharebtndiv .dropup.dropdown.btn-group{width: 33%;}
+    .btn-group > .btn:first-child {margin-left: 0;width: 100%;}
+    .form-box-content.mt-2 .text-center .btn.btn-blue{width: 100%;margin-left: 0px;}
+    .space-bk-btn .btn-blue {margin-left: 10px;width: 33%;}
+    .main-box.selectionbox{bottom: 10px;}
+    .none-bg-drop.tp-first{bottom: 10px;}
+    .dropdown-menu.main-box{max-width: 190px;border-radius: 4px;}
+    .none-bg-drop {box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.28);border-radius: 6px;}
+    .sub-link {font-size: 13px;}
+
+
+
+}
+
+@media (max-width: 767px) {
+    .mt-5, .my-5 {margin-top: 0rem !important;}
+    .index-text h1 {font-size: 24px;}
+    .index-text h4{font-size: 18px;}
+    .sigup-text {font-size: 14px;}
+    .home-plans {margin-top: 30px;}
+    .home-plans .row{margin-right: -10px;margin-left: -10px;}
+    .home-plans .row .col-4.mb-4{flex: 0 0 50%;max-width: 50%;padding-right: 10px;padding-left: 10px;}
+    .home-plans .row .mb-4, .my-4 {margin-bottom: 20px !important;}
+    .plan-info h2 {font-size: 18px;}
+    .plan-info .plan-value p {font-size: 15px;}
+    .plan-info .plan-value h4 {font-size: 22px;}
+    .plan-spat {font-size: 28px;}
+    .plan-info h6 font {font-size: 22px;}
+    .plan-info h6 {font-size: 14px;}
+    .index-text p {margin: 20px 0px;font-size: 14px;}
+    .btn {height: 42px;padding: 0px 20px;font-size: 14px;line-height: 42px;}
+    .form-box {padding: 15px 0px;border-radius: 10px;}
+    .form-control {font-size: 14px;}
+    body { line-height: normal;}
+    .dashboard-content .card-deck .col-xl-12{padding-right: 10px;padding-left: 10px;}
+    .form-label {font-size: 14px;}
+    .property-selection {left: -45px;}
+    .checkbox::before {left: 3px;top: 7px;width: 16px;height: 8px;}
+    .checkbox::after {width: 30px;height: 30px;}
+    .prop-listing-spacing {margin-left: 50px;}
+    .property-lists-next {padding: 10px;}
+    .prop-name {font-size: 14px;}
+    .module p {font-size: 13px;font-weight: 400;}
+    .property-list-shell {max-height: inherit;z-index: 0;position: relative;overflow: inherit;}
+    .flex-filter-bx.textstickynote {max-height: inherit;overflow: inherit;}
+    .navigation-list .nav-text {font-size: 16px;line-height: 18px;padding: 10px 15px;}
+    .navigation-list .nav-icons {height: 22px;width: 22px;margin-right: 15px;}
+    .sidebar-accordion .card-body .text {font-size: 14px;}
+    .sidebar-accordion .card-body .nav-text {padding-left: 50px;margin-right: 0px;}
+    .prop-img {border-radius: 5px;}
+    .prop-pricing {font-size: 15px}
+    .dropdown-menu.main-box {border-radius: 10px;min-width: 160px;}
+    .sub-link {font-size: 12px;padding: 5px 10px;}
+    .sub-link.dropdown-toggle::before {width: 12px;height: 10px;bottom: 6px;right: 10px;}
+    .share-btn-bg .dropdown-menu {top: auto !important;bottom: 42px;}
+    .none-bg-drop .form-box h5 {font-size: 14px;margin-bottom: 5px;padding: 5px 20px;}
+    .input-box-ui {background: #f8f9fc; padding: 5px 0px;}
+    .none-bg-drop .input-full { height: 35px;padding: 0px 20px;font-weight: 300;font-size: 12px;}
+    .manage-bk-text h4{font-size: 16px;}
+    .table .books-details td {padding: 10px 15px;font-weight: 400;}
+    .flex-form-group .btn {font-size: 14px;}
+    .sub-scription-bx .home-plans .row{padding-bottom: 20px;}
+    .sub-scription-bx .home-plans .row .col-4{flex: 0 0 50%; max-width: 50%;padding-bottom: 15px;}
+    .go-to-pay-bx {border-radius: 15px;padding: 15px 20px;max-width: 100%;}
+    .sub-scription-bx .index-text {padding: 10px 0px 15px 0px;}
+    .sub-scription-bx .index-text h6 { font-size: 18px;}
+    .land-lord .form-group label {width: 130px;min-width: 130px;font-size: 14px;}
+    .land-lord .form-group .form-control { height: 42px;width: calc(100% - 130px) !important;}
+    .custom-select span.current {overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: block;}
+    .custom-select ul.list li {overflow: hidden;white-space: nowrap;text-overflow: ellipsis;display: block;}
+    .book-text h1 {font-size: 24px;}
+    .fixd-in { min-height: 380px;}
+    .report-bx{flex-wrap: wrap;}
+    .report-bx.w-100.for-cl li {flex: 0 0 50%;max-width: 50%;}
+    .inner-header .nav-link.btn {font-size: 12px;margin: 0px;padding: 0px 15px;}
+    .inner-nav-profile .inner-nav-bg .navbar-nav .nav-item .nav-link img{max-width: 22px;}
+    :root {--topbar-height: 55px;}
+    .menuIcon {padding: 15px 12px;right: -49px;top: -55px;}
+    .menuIcon span {height: 3px;margin: 10px 0;}
+    .menuIcon span:before {top: -8px;height: 3px;}
+    .menuIcon span:after {bottom: -8px;height: 3px;}
+    .navigation-list .nav-text {font-size: 14px;}
+    .navigation-list .nav-icons {height: 20px;width: 20px;}
+    .sidebar-shell {left: -180px;width: 180px;max-width: 180px;min-width: 180px;}
+    .inner-header .brand-left {max-width: 180px;min-width: 180px;}
+    .user-profile-menu .btn {padding: 0px;}
+    .inner-nav-profile .inner-nav-bg .navbar-nav .nav-item.col-m-6 {padding: 0px 3px;}
+    .book-ing-bx { padding-left: 40px;}
+    .dropdown-menu.main-box {border-radius: 5px;min-width: 140px;}
+    .pdf-bttn .btn img {max-width: 15px;}
+    .checkbox:after {top: -3px;left: -5px;}
+    .none-bg-drop {min-width: 255px;}
+    .re-box-in.table-responsive{margin-bottom: 20px;}
+    .land-lord .form-group .btnselect {height: 42px;width: calc(100% - 130px) !important;}
+    .main-box.selectionbox{bottom: -10px;}
+    .none-bg-drop.tp-first{bottom: 10px;}
+    .main-box.selectionbox li:nth-child(2) .none-bg-drop.tp-first{bottom: 85px !important;}
+    .main-box.selectionbox li:nth-child(3) .none-bg-drop.tp-first{bottom: 123px !important;}
+    .none-bg-drop.tp-first {bottom: 46px;left: 0 !important;right: auto;position: absolute;border-radius: 6px;}
+
+}
+
+@media (max-width: 576px) {
+    .plan-info h2 {font-size: 15px;}
+    .plan-info .plan-value p {font-size: 14px;}
+    .plan-info .plan-value h4 {font-size: 18px;}
+    .plan-spat {font-size: 22px;margin-bottom: 10px;}
+    .home-plans article {padding: 15px;border-radius: 15px;}
+    .site-container .mb-5, .my-5 {margin-bottom: 0rem !important;}
+    .form-container h4 {font-size: 16px;}
+    .form-container .mb-4, .my-4 {margin-bottom: 15px !important;}
+    .form-box-content {padding: 0px 10px;}
+    .font-rs {font-size: 12px;}
+    .btn.btn-blue.w-25{width: 120px !important;}
+    .check-here p {font-size: 13px;top: 6px;left: 60px;}
+    .input-full {padding: 0px 20px;height: 44px;}
+    .contact-info-box a {font-size: 14px;}
+    .form-control {font-size: 13px;}
+    .sub-text-white {font-size: 15px;}
+    .flex-filter-bx li {padding: 10px;border-radius: 5px;margin: 3px 0px 6px 3px;max-width: 48%;}
+    .customer-form-shell i{display: none;}
+    .customer-form-shell .form-group {padding: 10px;border-radius: 5px;margin: 0px;}
+    .prop-details {flex: 100%;position: relative;width: 100%;}
+    .prop-listing-spacing .d-flex{flex-wrap: wrap;}
+    .dashboard-content { padding: 10px; padding-left: 10px;padding-top: calc(var(--topbar-height) + 70px);}
+    .filter-option .input-group .mx-3{max-width: 15px;margin: 0px 4px !important;}
+    .none-bg-drop {min-width: 245px;margin-left: -250px;}
+    .navbar-brand {font-size: 22px;}
+    .report-bx {flex-wrap: wrap;border-radius: 10px;overflow: hidden;}
+    .report-bx li {flex: 0 0 50%;max-width: 50%;border-bottom: 1px solid #e3e3e3;}
+    .report-bx.w-50 li {flex: 0 0 50%;max-width: 50%;}
+    .report-bx li:last-child {border-right: 1px solid #e3e3e3;}
+    .report-bx li h6 {font-size: 12px;min-height: 30px;word-break: break-all;}
+    .go-bk .d-flex {max-width: 180px;padding-right: 10px;}
+    .property-opt.p-5 {padding: 2rem!important;}
+    .password-opt .form-box h4 {padding: 0px 15px;font-size: 26px;text-align: center;}
+    .go-to-pay-bx p {font-size: 14px;}
+    .go-to-pay-bx a {font-size: 15px;}
+    .land-lord .form-group { margin-bottom: 18px;}
+    .book-text {padding-bottom: 25px;}
+    .property-selection {left: -45px;padding-top: 40px;}
+    .table .books-details td {padding: 5px 10px;font-weight: 400;font-size: 12px;}
+    .form-generate .btn {padding: 0px 15px;font-size: 12px;border-radius: 0px 16px 16px 0px;}
+    .file-upload-form {height: 150px;text-align: center;}
+    .fixd-in {min-height: 250px;}
+    .user-profile-menu .btn figure {width: 25px;min-width: 25px;height: 25px;}
+    .book-ing-bx {width: 100%;position: absolute;bottom: -52px;background: #fff;padding: 6px;}
+    .inner-header .nav-link.btn {font-size: 14px;margin: 0px;padding: 0px 15px;}
+    .book-ing-bx ul{width: 100%;}
+    .nav-item.col-m-6 {max-width: 100%;width: 100%; padding: 0px 5px;}
+    .billing-bx {padding: 10px;}
+    .payment-shell {padding: 0 10px;}
+    .payment-pricing {font-size: 18px;margin-bottom: 10px;}
+    .form-box h4 {font-size: 26px;}
+    .form-box.px-5 {padding: 15px 0px !important;border-radius: 15px;}
+    .form-box {padding: 15px 0px !important;}
+    .site-container{padding:20px 0px;}
+    .site-container .add-credit .form-box.payment-form{padding: 0px !important;}
+    .manage-bk-text .btn{padding: 0px;margin-right: 10px}
+    .add-cust-btn .btn {width: calc(100% - 0px);}
+    /* .main-box.selectionbox {bottom: 84px !important;position: absolute;top: auto !important;left: 0 !important;right: auto;} */
+    .none-bg-drop.tp-first {left: auto !important;right: -90px;position: absolute;bottom: 45px;border-radius: 0;}
+    .dropdown-menu.main-box {border-radius: 0px !important;box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.04);border: 1px solid #0000001c;}
+    .none-bg-drop.tp-first {bottom: auto;left: auto !important;right: -102px;position: absolute;bottom: 45px;}
+    .main-box.selectionbox li:nth-child(2) .none-bg-drop.tp-first {right: -90px;}
+    .main-box.selectionbox li:nth-child(3) .none-bg-drop.tp-first {}
+    .main-box.selectionbox {bottom: -11px;}
+    
+}
+
+@media (max-width: 480px) {
+    .home-plans .row .col-4.mb-4 { padding-right: 5px;padding-left: 5px;}
+    .home-plans article {padding: 10px;border-radius: 15px;}
+    .home-plans .row .mb-4, .my-4 {margin-bottom: 10px !important;}
+    .home-plans article .btn {min-width: 100%;height: 42px;font-size: 14px;}
+    .plan-info h6 font {font-size: 18px;}
+    .index-text h1 {font-size: 18px;}
+    .index-text h4 {font-size: 15px;}
+    .top-right.links{display: flex;justify-content: center;}
+    .index-text .btn {flex: 50%;max-width: 50%; min-width:auto;}
+    .contact-info-box {margin: 20px 0 0;justify-content: space-between;flex-wrap: wrap;}
+    .add-cust-btn .btn {font-size: 14px;width: 100%;}
+    .filter-option .btn {height: 42px;line-height: 42px;font-size: 14px;}
+    .prop-img {flex: 0 0 100%;max-width: 100%;height: 130px;}
+    .prop-status {min-width: 60px;padding: 5px 8px;font-size: 12px;border-radius: 3px;}
+    .prop-details{padding-top: 10px}
+    .prop-inner-body {display: flex;width: 100%;flex-wrap: wrap;}
+    .prop-inner-descp-box{max-width: 100%;}
+    .prop-price-box {margin-left: auto;text-align: right;min-width: 100%;}
+    .prop-indiv-price {font-size: 14px;padding: 10px 0px;text-align: right;}
+    .space-bk-btn .btn-blue {margin-left: 0px;}
+    .book-btn {text-align: left;padding: 10px;}
+    .textarea-box textarea {font-size: 12px;}
+    .flex-filter-300.scrolltoptobtm{padding-bottom: 50px;}
+    .report-bx li {padding: 10px;}
+    .report-bx li .prop-pricing {font-size: 15px;}
+    .reports-list {padding: 10px;}
+    .manage-bk-text h4 {font-size: 14px;}
+    .go-bk a {font-size: 14px;}
+    .manage-bk-text {flex-wrap: wrap;}
+    .property-opt.p-5 {padding: 10px !important;}
+    .input-box-ui.profilelabels {padding: 10px;}
+    .profile-sig figure {width: 90px;min-width: 90px;height: 90px;}
+    .profile-sig {max-width: 90px;margin-bottom: 35px;}
+    .edit-btn {bottom: -14px;right: 26px;width: 35px;min-width: 35px;height: 35px !important;padding: 0px !important;}
+    .profile-opt figcaption h5 {font-size: 16px;}
+    .profile-opt figcaption p {font-size: 14px;font-weight: 400;}
+    .sub-scription-bx .home-plans .row .col-4{flex: 0 0 100%; max-width: 100%;padding-bottom: 15px;}
+    .pdd-opt {padding: 20px 15px 65px 15px;}
+    .land-lord .form-group label {width: 100px;min-width: 100px;font-size: 14px;}
+    .land-lord .form-group .form-control { height: 42px;width: calc(100% - 100px) !important;}
+    .property-selection {left: -45px;padding-top: 100px;}
+    .head-booking th {font-size: 12px;}
+    .navbar.navbar-expand-lg.navbar-light.bg-light .navbar-nav .nav-item .nav-link img{max-width: 24px;height: auto !important;}
+    .land-lord .form-group .btnselect {height: 42px; width: calc(100% - 100px) !important;}
+    .btnselect .padding-for-label span.error, .padding-for-label label.error, .padding-for-label span.invalid-feedback {padding-left: 110px !important;}
+    .filter-option {flex: 50%;max-width: 50%;}
+    .prop-listing-spacing .filter-option:first-child{flex: 50%;max-width: 50%;}
+    .filter-option.half-flex {flex: 50%;max-width: 50%;}
+    .filter-option.half-more-flex {flex: 50%;max-width: 50%;}
+    .btn-shell.book-btn.space-bk-btn.share-btn-bg.sharebtndiv {flex-wrap: wrap;}
+    .btn-shell.book-btn.space-bk-btn.share-btn-bg.sharebtndiv .dropup.dropdown.btn-group {width: 100%;}
+    .btn-group > .btn:first-child {width: 100%;}
+    .space-bk-btn .btn-blue {width: 100%;margin-right: 0px;margin-bottom: 5px;}
+    .dropdown-menu.main-box{width: 100%;min-width: 100%;padding: 0px;bottom: 48px;}
+    .none-bg-drop {min-width: 100%;margin-left: inherit;}
+    .none-bg-drop.tp-first {bottom: 38px;left: 0 !important;right: 0;position: absolute;box-shadow: 0px 6px 14px 0px rgba(0, 0, 0, 0.27);}
+    .main-box.selectionbox li:nth-child(2) .none-bg-drop.tp-first {right: 0;}
+    .main-box.selectionbox {bottom: 76px !important;}
+    .none-bg-drop.tp-first .form-box {padding: 0px 0px !important;}
+    .none-bg-drop .form-box h5 {font-size: 12px;}
+    .iti--separate-dial-code .iti__selected-dial-code {margin-left: 5px;font-size: 12px;}
+    .main-box.selectionbox li:nth-child(2) .none-bg-drop.tp-first {right: 0;bottom: 76px !important;}
+    .main-box.selectionbox li:nth-child(3) .none-bg-drop.tp-first {bottom: 114px !important;}
+    .main-box.selectionbox {bottom: 76px !important;position: absolute;top: auto !important;left: 0 !important;right: auto;}
+
+}
